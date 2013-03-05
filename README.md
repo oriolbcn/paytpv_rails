@@ -35,7 +35,7 @@ Define Paytpv product configuration options as a block to the PaytpvRails.config
         config.paytpv_wdsl = "https://www.paytpv.com/gateway/xml_bankstore.php?wsdl"
       end
 
-      #You can also configure environment variables:
+You can also configure environment variables:
       
       PAYTPV_CLIENT
       PAYTPV_TERMINAL
