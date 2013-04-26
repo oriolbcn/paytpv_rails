@@ -1,0 +1,18 @@
+development:
+  paytpv_codigo_client: "codigo_de_cliente"
+  paytpv_terminal: "terminal"
+  paytpv_password: "password"
+  paytpv_url: "https://www.paytpv.com/gateway/xml_bankstore.php"
+  paytpv_wdsl: "https://www.paytpv.com/gateway/xml_bankstore.php?wsdl"
+test:
+  paytpv_codigo_client: "codigo_de_cliente"
+  paytpv_terminal: "terminal"
+  paytpv_password: "password"
+  paytpv_url: "https://www.paytpv.com/gateway/xml_bankstore.php"
+  paytpv_wdsl: "https://www.paytpv.com/gateway/xml_bankstore.php?wsdl"
+production:
+  paytpv_codigo_client: "codigo_de_cliente"
+  paytpv_terminal: "terminal"
+  paytpv_password: "password"
+  paytpv_url: "https://www.paytpv.com/gateway/xml_bankstore.php"
+  paytpv_wdsl: "https://www.paytpv.com/gateway/xml_bankstore.php?wsdl"

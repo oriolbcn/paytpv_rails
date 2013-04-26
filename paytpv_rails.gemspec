@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'paytpv_rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "paytpv_rails"
+  spec.name          = "paytpv-rails"
   spec.version       = PaytpvRails::VERSION
-  spec.authors       = ["David Ramirez"]
-  spec.email         = ["david@davidrv.com"]
+  spec.authors       = ["David Ramirez, Oriol Collell"]
+  spec.email         = ["oriol.collell@adconfig.com"]
   spec.description   = %q{PayTPV products integration for rails apps}
   spec.summary       = %q{PayTPV products integration for rails apps}
-  spec.homepage      = "https://github.com/davidrv/paytpv_rails"
+  spec.homepage      = "https://github.com/oriolbcn/paytpv_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

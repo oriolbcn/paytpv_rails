@@ -7,7 +7,7 @@ require "savon"
 
 module PaytpvRails
   class << self
-    include PaytpvRails::Configurable  
+    include PaytpvRails::Configurable
   end
 end
 
