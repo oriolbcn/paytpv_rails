@@ -1,4 +1,4 @@
-module PaytpvRails
+module Paytpv
   module Configurable
     
     attr_writer :paytpv_client, :paytpv_terminal, :paytpv_password, :paytpv_url, :paytpv_wdsl
@@ -26,8 +26,8 @@ module PaytpvRails
     end
     
     def reset!
-      PaytpvRails::Configurable.keys.each do |key|
-        instance_variable_set(:"@#{key}", PaytpvRails::Default.options[key])
+      Paytpv::Configurable.keys.each do |key|
+        instance_variable_set(:"@#{key}", Paytpv::Default.options[key])
       end
       self
     end
@@ -48,7 +48,7 @@ module PaytpvRails
 
     # @return [Hash]
     def options
-      Hash[PaytpvRails::Configurable.keys.map{|key| [key, instance_variable_get(:"@#{key}")]}]
+      Hash[Paytpv::Configurable.keys.map{|key| [key, instance_variable_get(:"@#{key}")]}]
     end
       
   end

@@ -1,13 +1,13 @@
-require 'paytpv_rails/configurable'
-require 'paytpv_rails/version'
+require 'paytpv/configurable'
+require 'paytpv/version'
 
-module PaytpvRails
+module Paytpv
   module Default
     class << self
 
       # @return [Hash]
       def options
-        Hash[PaytpvRails::Configurable.keys.map{|key| [key, send(key)]}]
+        Hash[Paytpv::Configurable.keys.map{|key| [key, send(key)]}]
       end
 
       # @return [String]

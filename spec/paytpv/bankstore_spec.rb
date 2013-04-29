@@ -1,8 +1,9 @@
 # encoding: utf-8
 
 require 'spec_helper'
+require 'paytpv/bankstore'
 
-describe PaytpvRails do
+describe Paytpv::Bankstore do
   
   it "should say yes" do
     "Yes"

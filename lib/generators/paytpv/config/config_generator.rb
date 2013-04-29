@@ -1,7 +1,9 @@
-module PaytpvRails
+require 'rails'
+
+module Paytpv
   module Generators
     class ConfigGenerator < Rails::Generators::Base
-      desc 'Creates a PayTPV gem configuration file at config/paytpv.yml, and an initializer at config/initializers/paytpv.rb'
+      desc "Creates a PayTPV gem configuration file at config/paytpv.yml, and an initializer at config/initializers/paytpv.rb"
       
       def self.source_root
         @_paytpv_source_root ||= File.expand_path("../templates", __FILE__)

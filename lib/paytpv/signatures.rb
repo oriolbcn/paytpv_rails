@@ -1,4 +1,4 @@
-module PaytpvRails
+module Paytpv
   module Signatures
     extend self
     
